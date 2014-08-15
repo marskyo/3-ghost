@@ -12,11 +12,12 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('.place_your_tag_name_here'),
-    tag3       = $('.place_your_tag_name_here'),
-    tag4       = $('.place_your_tag_name_here'),
-    tag5       = $('.place_your_tag_name_here'),
-    tag6       = $('.place_your_tag_name_here');
+    tag2       = $('.Movie'),
+    tag3       = $('.Book'),
+    tag4       = $('.Travel'),
+    tag5       = $('.Friend'),
+    tag6       = $('.Family'),
+    tag7       = $('.Other');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -30,7 +31,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 6; i++) {
+for (var i = 1; i <= 7; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
@@ -134,7 +135,7 @@ function afterPjax() {
   var ds_loaded = false,
       top = $('#disqus_thread').offset().top;
       identifier = $('#post__title').data('identifier');
-  window.disqus_shortname = '';
+  window.disqus_shortname = theodoer'';
   window.disqus_identifier = identifier;
 
   function check() {
