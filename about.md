@@ -3,8 +3,6 @@ layout: post
 permalink: /about/index.html
 title: 关于老刘
 tags: [about,简介]
-image:
-  feature: soft-trees.jpg
 ---
 
 老刘，帝都偏远地区低调青年，五官还算端正，收入尚能温饱；老婆一个，孩儿一个。

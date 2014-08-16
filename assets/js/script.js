@@ -12,12 +12,12 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('电影'),
-    tag3       = $('读书'),
-    tag4       = $('运动'),
-    tag5       = $('旅行'),
-    tag6       = $('家人朋友'),
-    tag7       = $('其他');
+    tag2       = $('.电影'),
+    tag3       = $('.读书'),
+    tag4       = $('.运动'),
+    tag5       = $('.旅行'),
+    tag6       = $('.家人朋友'),
+    tag7       = $('.其他');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
