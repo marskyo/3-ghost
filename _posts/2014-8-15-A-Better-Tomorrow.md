@@ -1,11 +1,7 @@
 ---
-
 layout: post
-
 title: 英雄本色三部曲
-
-tags: [Movie]
-
+tags: 电影
 ---
 
 
