@@ -4,9 +4,9 @@ layout: post
 
 title: 开篇手记
 
-Category: 其他
+Category: other
 
-tags: tag7
+tags: other
 
 ---
 
