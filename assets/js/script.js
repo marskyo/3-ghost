@@ -15,9 +15,8 @@ if ($(window).width() <= 1280) {
     tag2       = $('.movie'),
     tag3       = $('.读书'),
     tag4       = $('.运动'),
-    tag5       = $('.旅行'),
-    tag6       = $('.家人朋友'),
-    tag7       = $('.other');
+    tag5       = $('.家人朋友'),
+    tag6       = $('.other');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -31,7 +30,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 7; i++) {
+for (var i = 1; i <= 6; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
