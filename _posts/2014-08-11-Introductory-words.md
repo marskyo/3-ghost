@@ -4,10 +4,7 @@ layout: post
 
 title: 开篇手记
 
-Category: other
-
-tags:
-    - other
+tags: [other]
 
 ---
 
