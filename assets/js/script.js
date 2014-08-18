@@ -17,10 +17,10 @@ if ($(window).width() <= 1280) {
     tag4       = $('.运动'),
     tag5       = $('.家人朋友'),
     tag6       = $('.other');
-var sidebar    = $('sidebar'),
-    container  = $('post'),
-    content    = $('pjax'),
-    button     = $('icon-arrow');
+var sidebar    = $('#sidebar'),
+    container  = $('#post'),
+    content    = $('#pjax'),
+    button     = $('#icon-arrow');
 
 // Tags switcher
 var clickHandler = function(k) {
@@ -31,7 +31,7 @@ var clickHandler = function(k) {
   }
 };
 for (var i = 1; i <= 6; i++) {
-  $('#js-label' + i).on('click', clickHandler(i));
+  $('js-label' + i).on('click', clickHandler(i));
 }
 
 // If sidebar has class 'mobile', hide it after clicking.
