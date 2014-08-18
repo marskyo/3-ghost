@@ -31,7 +31,7 @@ var clickHandler = function(k) {
   }
 };
 for (var i = 1; i <= 6; i++) {
-  $('js-label' + i).on('click', clickHandler(i));
+  $('#js-label' + i).on('click', clickHandler(i));
 }
 
 // If sidebar has class 'mobile', hide it after clicking.
